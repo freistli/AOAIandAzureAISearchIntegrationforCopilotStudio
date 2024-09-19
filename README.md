@@ -6,7 +6,7 @@ This POC project provides a low code method to integrate Azure OpenAI with your 
 
 <image src="https://github.com/user-attachments/assets/bd8eff2f-e1f1-405b-8a97-e9110f9f15ad" width=700px></image>   
 
-## Setup
+## Quick Start
 
   [Preparation](#preparation)
   
@@ -22,7 +22,9 @@ This POC project provides a low code method to integrate Azure OpenAI with your 
 
 [Core Components](#core-components)
 
-## Preparation
+## Setup Step by Step
+
+### Preparation
 
 LLM Model deployment in Azure OpenAI service
 
@@ -32,7 +34,7 @@ Sample Data Files
 
 M365 Test Environment
 
-## Build Index with your own data in Azure AI Search
+### Build Index with your own data in Azure AI Search
 
 
   1.  Access Azure OpenAI Studio: https://openai.studio-ppe.azure.com/
@@ -66,7 +68,7 @@ M365 Test Environment
 
   For more information about adding data source, can check: [Chat with Azure OpenAI models using your own data](https://learn.microsoft.com/en-us/azure/ai-services/openai/use-your-data-quickstart?tabs=typescript%2Ccommand-line%2Cpython-new&pivots=programming-language-studio)
 
-## Import Solution to M365 Environment
+### Import Solution to M365 Environment
 
   1. Download the solution zip file from https://github.com/freistli/AOAIandAzureAISearchIntegrationforCopilotStudio/releases/tag/POC
 
@@ -78,7 +80,7 @@ M365 Test Environment
 
   <image src="https://github.com/user-attachments/assets/1d41b3ef-c4c2-4313-ba85-de7b6c3f4fa7" width=400px></image>
 
-## Test
+### Test
 
   1. After the solution is imported, open https://make.powerautomate.com/, click **Solutions**, find the imported solution. Open it. The structure layout is:
 
@@ -105,7 +107,7 @@ If you want to try Vector Search or Semantic Hybrid search, need to embedding mo
 
 This informaiton is returned from AOAI by default when uses data source. [doc1] means the response is based on the first doc citation. For other docs, they are sent to AOAI, but AOAI doesn't use them finally based on your prompt.
 
-A better way is to use Pro-Code to re-calculate [docx] and Citations, can refer to: [AnswerParser](https://github.com/microsoft/sample-app-aoai-chatGPT/blob/d98ef41d4c9f0393bdeeeb7a2132e702498ceef5/frontend/src/components/Answer/AnswerParser.tsx#L28) , but this is not in this low-code POC scope.
+We can use use Pro-Code to re-calculate [docx] and Citations, can refer to: [AnswerParser](https://github.com/microsoft/sample-app-aoai-chatGPT/blob/d98ef41d4c9f0393bdeeeb7a2132e702498ceef5/frontend/src/components/Answer/AnswerParser.tsx#L28) , but this is not in this low-code POC scope.
 
 ## Core Components
 
