@@ -6,13 +6,17 @@ This POC project provides a low code method to integrate Azure OpenAI with your 
 
 <image src="https://github.com/user-attachments/assets/bd8eff2f-e1f1-405b-8a97-e9110f9f15ad" width=700px></image>   
 
+## Setup
 
-[Preparation](#preparation)
+  [Preparation](#preparation)
+  
+  [Build Index with your own data in Azure AI Search](#build-index-with-your-own-data-in-azure-ai-search)
+  
+  [Import Solution to M365 Environment](#import-solution-to-m365-environment)
 
-[Build Index with your own data in Azure AI Search](#build-index-with-your-own-data-in-azure-ai-search)
+  [Test](#test)
 
-[Import Solution to M365 Environment](#import-solution-to-m365-environment)
-
+## More Information
 
 [Core Components](#core-components)
 
