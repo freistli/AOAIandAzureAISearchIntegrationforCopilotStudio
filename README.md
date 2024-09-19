@@ -1,4 +1,16 @@
-# Azure Open AI and Azure AI Search Integration for Copilot Studio
+# Azure OpenAI and Azure AI Search Integration for Copilot Studio
+
+This POC project provides a low code method to integrate Azure OpenAI with your own data in Copilot Studio. 
+
+
+![image](https://github.com/user-attachments/assets/4f8df4b5-3f6b-4dba-8e2e-7b1c87027ed2)
+
+
+It has one customized power workflow to send sepcific REST API to Azure OpenAI,and parse JSON result, return to Copilot Studio with proper format
+
+
+<image src="https://github.com/user-attachments/assets/724523e4-cfcf-4390-9b7c-c610a867c797" width=500px></image>
+
 
 ## Preparation
 
@@ -8,7 +20,7 @@ Azure AI Search service
 
 Sample Data Files
 
-## Integation Guide
+## Build Index with your own data in Azure AI Search
 
 
   1.  Access Azure OpenAI Studio: https://openai.studio-ppe.azure.com/
@@ -28,6 +40,15 @@ Sample Data Files
 
   <image src="https://github.com/user-attachments/assets/8aff9e26-2730-4b0a-a684-501575c8647e" width=500px></image>
 
+
+  <image src="https://github.com/user-attachments/assets/53e7ea94-b4b8-45f0-96bb-25e567c2ed06" width=500px></image>
+
+
+  <image src="https://github.com/user-attachments/assets/410731fb-0485-49f3-8e14-8b7136fda561" width=500px></image>
+
+  
+  <image src="https://github.com/user-attachments/assets/357c80cf-af73-4f09-ad3f-a8bcf848998a" width=500px></image>
+  
 
   For more information about adding data source, can check: [Chat with Azure OpenAI models using your own data](https://learn.microsoft.com/en-us/azure/ai-services/openai/use-your-data-quickstart?tabs=typescript%2Ccommand-line%2Cpython-new&pivots=programming-language-studio)
   
