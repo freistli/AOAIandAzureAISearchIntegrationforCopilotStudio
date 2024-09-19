@@ -33,7 +33,7 @@ Sample Data Files
 
   <image src="https://github.com/user-attachments/assets/a0905ef7-7ee0-485f-bc72-f5f3bbdf58f7" width=300px></image>
    
-  4. Click **Add your data** -> **Add a data source**, if you haven't created Azure AI Search index with this wizard before, can choose data soruce such as **Azure Block Storage** or **Upload files**, the wizard will give you some fields to input Azure AI Search settings.
+  4. Click **Add your data** -> **Add a data source**, if you haven't created Azure AI Search index with this wizard before, can choose data soruce such as **Azure Block Storage** or **Upload files**, the wizard will give you some fields to input Azure AI Search settings. Below are snapshots for each wizard step, can be skipped you are familar with create the index with your data in the playground.
 
   <image src="https://github.com/user-attachments/assets/4bdd688e-d65a-4578-84e5-50e1ab14153a" width=500px></image>
 
