@@ -94,6 +94,19 @@ M365 Test Environment
 
 ## Q&A
 
+
+### Does it use embedding model?
+
+In this POC, it uses Semantic query of Azure AI Search which doesn't require embedding model. 
+
+If you want to try Vector Search or Semantic Hybrid search, need to embedding model, and buid Vectors when you build index in Azure AI Search. Also need to change the HTTP Post body in the AOAI Integration workflow.
+
+### The response shows [doc1], but why the citations part show more documents?
+
+This informaiton is returned from AOAI by default when uses data source. [doc1] means the response is based on the first doc citation. For other docs, they are sent to AOAI, but AOAI doesn't use them finally based on your prompt.
+
+A better way is to use Pro-Code to re-calculate [docx] and Citations, can refer to: [AnswerParser](https://github.com/microsoft/sample-app-aoai-chatGPT/blob/d98ef41d4c9f0393bdeeeb7a2132e702498ceef5/frontend/src/components/Answer/AnswerParser.tsx#L28) , but this is not in this low-code POC scope.
+
 ## Core Components
 
 It has one customized power workflow to send sepcific [Azure OpenAI On Your Data REST API](https://learn.microsoft.com/en-us/azure/ai-services/openai/references/on-your-data?tabs=rest) to Azure OpenAI,and parse JSON result, return to Copilot Studio with proper format:
