@@ -1,14 +1,20 @@
 # Azure OpenAI and Azure AI Search Integration for Copilot Studio
 
-[Overview](#overview)
-
-[Preparation](#preparation)
-
-## Overview
+## Description
 
 This POC project provides a low code method to integrate Azure OpenAI with your own data in Copilot Studio. 
 
-![image](https://github.com/user-attachments/assets/4f8df4b5-3f6b-4dba-8e2e-7b1c87027ed2)
+<image src="https://github.com/user-attachments/assets/4f8df4b5-3f6b-4dba-8e2e-7b1c87027ed2" width=700px></image>   
+
+
+[Core Components](#core-components)
+
+[Preparation](#preparation)
+
+[Build Index with your own data in Azure AI Search](#build-index-with-your-own-data-in-azure-ai-search)
+
+
+## Core Components
 
 It has one customized power workflow to send sepcific [Azure OpenAI On Your Data REST API](https://learn.microsoft.com/en-us/azure/ai-services/openai/references/on-your-data?tabs=rest) to Azure OpenAI,and parse JSON result, return to Copilot Studio with proper format:
 
