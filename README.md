@@ -39,7 +39,9 @@ M365 Test Environment
 
   <image src="https://github.com/user-attachments/assets/a0905ef7-7ee0-485f-bc72-f5f3bbdf58f7" width=300px></image>
    
-  4. Click **Add your data** -> **Add a data source**, if you haven't created Azure AI Search index with this wizard before, can choose data soruce such as **Azure Block Storage** or **Upload files**, the wizard will give you some fields to input Azure AI Search settings. Below are snapshots for each wizard step, can be skipped you are familar with create the index with your data in the playground.
+  4. Click **Add your data** -> **Add a data source**, if you haven't created Azure AI Search index with this wizard before, can choose data soruce such as **Azure Block Storage** or **Upload files**, the wizard will give you some fields to input Azure AI Search settings.
+  
+     Below are snapshots for each wizard step, can be skipped you are familar with create the index with your data in the playground.
 
   <image src="https://github.com/user-attachments/assets/4bdd688e-d65a-4578-84e5-50e1ab14153a" width=500px></image>
 
@@ -60,6 +62,29 @@ M365 Test Environment
 
 ## Import Solution to M365 Environment
 
+  1. Download the solution zip file from https://github.com/freistli/AOAIandAzureAISearchIntegrationforCopilotStudio/releases/tag/POC
+
+  1.  Access https://make.powerautomate.com/ , choose your test M365 Tenant
+     
+  2.  Click **Solutions** in the left pane, click **Import Solution** in the menu bar, select the solution zip file, and then click Next.
+     
+  3.  Update the required environmetn variables, click **Import**
+
+  <image src="https://github.com/user-attachments/assets/1d41b3ef-c4c2-4313-ba85-de7b6c3f4fa7" width=400px></image>
+
+## Test
+
+  1. After the solution is imported, open https://make.powerautomate.com/, click **Solutions**, find the imported solution. Open it. The structure layout is:
+
+     <image src="https://github.com/user-attachments/assets/cd353fb2-9f8f-4a78-bc4d-e6b47d3e944a" width=200px></image>
+
+  2. Click Chatbot, open **Coplot AOAI**
+
+  3. Click **Test** in the menu bar
+
+  4. Type "Query AOAI", can start your test.
+
+   <image src="https://github.com/user-attachments/assets/e28935e8-10bc-4897-a434-ac4cee1a8148" width=200px></image>
 
 
 ## Core Components
