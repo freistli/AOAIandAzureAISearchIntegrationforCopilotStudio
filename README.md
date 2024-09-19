@@ -18,6 +18,8 @@ This POC project provides a low code method to integrate Azure OpenAI with your 
 
 ## More Information
 
+[Q
+
 [Core Components](#core-components)
 
 ## Preparation
@@ -90,6 +92,7 @@ M365 Test Environment
 
    <image src="https://github.com/user-attachments/assets/e28935e8-10bc-4897-a434-ac4cee1a8148" width=200px></image>
 
+## Q&A
 
 ## Core Components
 
@@ -98,7 +101,7 @@ It has one customized power workflow to send sepcific [Azure OpenAI On Your Data
 ### Power Autoflow AOAI Integration
 <image src="https://github.com/user-attachments/assets/724523e4-cfcf-4390-9b7c-c610a867c797" width=500px></image>
 
-### Copilot Studio Calls AOAI Integration
+### Copilot Studio Calls AOAI Integration in the Query AOAI topic
 <image src="https://github.com/user-attachments/assets/00140285-06d2-4c80-a53f-45ba21870ced" width=400px></image>
 
 
