@@ -18,7 +18,7 @@ This POC project provides a low code method to integrate Azure OpenAI with your 
 
 ## More Information
 
-[Q
+[Q&A](#qa)
 
 [Core Components](#core-components)
 
