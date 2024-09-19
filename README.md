@@ -1,5 +1,8 @@
 # Azure OpenAI and Azure AI Search Integration for Copilot Studio
 
+[Overview](#overview)
+
+[Preparation](#preparation)
 
 ## Overview
 
