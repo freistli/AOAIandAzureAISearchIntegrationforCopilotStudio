@@ -1,15 +1,19 @@
 # Azure OpenAI and Azure AI Search Integration for Copilot Studio
 
-This POC project provides a low code method to integrate Azure OpenAI with your own data in Copilot Studio. 
 
+## Overview
+
+This POC project provides a low code method to integrate Azure OpenAI with your own data in Copilot Studio. 
 
 ![image](https://github.com/user-attachments/assets/4f8df4b5-3f6b-4dba-8e2e-7b1c87027ed2)
 
+It has one customized power workflow to send sepcific [Azure OpenAI On Your Data REST API](https://learn.microsoft.com/en-us/azure/ai-services/openai/references/on-your-data?tabs=rest) to Azure OpenAI,and parse JSON result, return to Copilot Studio with proper format:
 
-It has one customized power workflow to send sepcific [Azure OpenAI On Your Data REST API](https://learn.microsoft.com/en-us/azure/ai-services/openai/references/on-your-data?tabs=rest) to Azure OpenAI,and parse JSON result, return to Copilot Studio with proper format
-
-
+### Power Autoflow AOAI Integration
 <image src="https://github.com/user-attachments/assets/724523e4-cfcf-4390-9b7c-c610a867c797" width=500px></image>
+
+### Copilot Studio Call AOAI Integration
+<image src="https://github.com/user-attachments/assets/00140285-06d2-4c80-a53f-45ba21870ced" width=400px></image>
 
 
 ## Preparation
