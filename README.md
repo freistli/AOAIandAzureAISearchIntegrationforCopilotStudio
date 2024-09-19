@@ -4,26 +4,17 @@
 
 This POC project provides a low code method to integrate Azure OpenAI with your own data in Copilot Studio. 
 
-<image src="https://github.com/user-attachments/assets/4f8df4b5-3f6b-4dba-8e2e-7b1c87027ed2" width=700px></image>   
+<image src="https://github.com/user-attachments/assets/bd8eff2f-e1f1-405b-8a97-e9110f9f15ad" width=700px></image>   
 
-
-[Core Components](#core-components)
 
 [Preparation](#preparation)
 
 [Build Index with your own data in Azure AI Search](#build-index-with-your-own-data-in-azure-ai-search)
 
+[Import Solution to M365 Environment](#import-solution-to-m365-environment)
 
-## Core Components
 
-It has one customized power workflow to send sepcific [Azure OpenAI On Your Data REST API](https://learn.microsoft.com/en-us/azure/ai-services/openai/references/on-your-data?tabs=rest) to Azure OpenAI,and parse JSON result, return to Copilot Studio with proper format:
-
-### Power Autoflow AOAI Integration
-<image src="https://github.com/user-attachments/assets/724523e4-cfcf-4390-9b7c-c610a867c797" width=500px></image>
-
-### Copilot Studio Call AOAI Integration
-<image src="https://github.com/user-attachments/assets/00140285-06d2-4c80-a53f-45ba21870ced" width=400px></image>
-
+[Core Components](#core-components)
 
 ## Preparation
 
@@ -32,6 +23,8 @@ LLM Model deployment in Azure OpenAI service
 Azure AI Search service
 
 Sample Data Files
+
+M365 Test Environment
 
 ## Build Index with your own data in Azure AI Search
 
@@ -64,8 +57,21 @@ Sample Data Files
   
 
   For more information about adding data source, can check: [Chat with Azure OpenAI models using your own data](https://learn.microsoft.com/en-us/azure/ai-services/openai/use-your-data-quickstart?tabs=typescript%2Ccommand-line%2Cpython-new&pivots=programming-language-studio)
-  
-  5. 
+
+## Import Solution to M365 Environment
+
+
+
+## Core Components
+
+It has one customized power workflow to send sepcific [Azure OpenAI On Your Data REST API](https://learn.microsoft.com/en-us/azure/ai-services/openai/references/on-your-data?tabs=rest) to Azure OpenAI,and parse JSON result, return to Copilot Studio with proper format:
+
+### Power Autoflow AOAI Integration
+<image src="https://github.com/user-attachments/assets/724523e4-cfcf-4390-9b7c-c610a867c797" width=500px></image>
+
+### Copilot Studio Calls AOAI Integration
+<image src="https://github.com/user-attachments/assets/00140285-06d2-4c80-a53f-45ba21870ced" width=400px></image>
+
 
      
 
