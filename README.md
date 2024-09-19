@@ -6,7 +6,7 @@ This POC project provides a low code method to integrate Azure OpenAI with your 
 ![image](https://github.com/user-attachments/assets/4f8df4b5-3f6b-4dba-8e2e-7b1c87027ed2)
 
 
-It has one customized power workflow to send sepcific REST API to Azure OpenAI,and parse JSON result, return to Copilot Studio with proper format
+It has one customized power workflow to send sepcific [Azure OpenAI On Your Data REST API](https://learn.microsoft.com/en-us/azure/ai-services/openai/references/on-your-data?tabs=rest) to Azure OpenAI,and parse JSON result, return to Copilot Studio with proper format
 
 
 <image src="https://github.com/user-attachments/assets/724523e4-cfcf-4390-9b7c-c610a867c797" width=500px></image>
